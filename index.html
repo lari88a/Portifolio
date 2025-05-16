@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio Pessoal</title>
+  <!-- Link para o arquivo de estilo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com o nome do site e menu de navegação -->
+  <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+        <!-- Links que rolam até cada seção da página -->
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+     <!-- Seção " Sobre Mim"  -->
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+     
+  <!-- Imagem 1: Foto de perfil -->
+  <img src="imagens/computador.png.jpeg" alt="Foto do computador" class="foto-pequena">
+
+  <!-- Imagem 2: Foto do computador -->
+  <img src="imagens/cachorro.png.jpeg" alt="Meus cachorros" class="foto-pequena">
+
+      <p>Olá! Meu nome é Larissa Vaz. Gosto de tecnologia, programação, jogos e amo cachorros. Meus hobbies incluem sair e assistir filmes.</p>
+    </section>
+
+     <!-- Seção "Formação"  -->
+    <section id="formacao">
+      <h2>Formação</h2>
+      <p>Graduando em Engenharia de Software pela UNINTER. Idiomas: Português</p>
+    </section>
+
+     <!-- Seção "Portifólio" com projeto  -->
+    <section id="portfolio">
+      <h2>Portfólio</h2>
+      
+     <!-- Projeto  -->
+      <div class="projeto">
+        <h3>Prototipo</h3>
+        <!-- Imagem 1: foto da tela de splash -->
+         <img src="imagens/prototipodisney.png.png" alt="foto do splash" class="foto-pequena">
+
+         <!--Imagem 2: foto dos detalhes do filme -->
+         <img src="imagens/Detalhes do filme.png.png" alt="foto de detalhes do filme" class="foto-pequena">
+
+         <!--Imagem 2: foto da tela home -->
+         <img src="Imagens/Home.png.png" alt="foto dela home" class="foto-pequena">
+         
+        <p>Um prototipo de um streaming com alta fidelidade utilizando o figma</p>
+        <a href="https://www.figma.com/proto/lB30v2b8O13Ihr0p17QbJl/Larissa-Vaz?node-id=6-10&t=GIarU1WSqeP0JUht-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A10" target="_blank" >Ver projeto</a>
+      </div>
+      </section>
+
+      <!-- Seção de contato com formulário -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <!-- Campos do formulário -->
+        <label>Nome:<br><input type="text" name="nome" required></label><br>
+        <label>Email:<br><input type="email" name="email" required></label><br>
+        <label>Mensagem:<br><textarea name="mensagem" rows="4" required></textarea></label><br>
+        <!-- Botão que chama uma função JavaScript -->
+        <button type="button" onclick="mostrarMensagem()">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>© 2025 Larissa Vaz de Almeida</p>
+  </footer>
+
+    <!-- Link para o arquivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
